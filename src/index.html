@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Task-FE</title>
     <link rel="stylesheet" href="./styles/main.scss" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
   <body class="page__body">
@@ -129,44 +130,45 @@
       </div>
     </nav>
 
-    <main hidden>
+    <main>
       <section class="page__section instructions" id="instructions">
         <div class="container">
-          <h2 class="about__title" id="instruction">
-            Getting Started Is Fast & Easy
-          </h2>
-          <div class="instructions__container grid">
-            <div class="instructions__card instruction__card grid__item-1-5">
-              <a href="#" class="instruction__card__number">01.</a>
-              <h3 class="instruction__card__title">Register</h3>
-              <p class="instruction__card__description">
+          <h2 class="instructions__title title" id="title">Getting Started Is Fast & Easy</h2>
+        </div>
+
+        <div class="instructions__container">
+          <div class="container">
+            <div class="instruction">
+              <a href="#" class="instruction__number">01.</a>
+              <h3 class="instruction__title">Register</h3>
+              <p class="instruction__description">
                 Complete the simple registration to get your trading
                 credentials.
               </p>
             </div>
 
-            <div class="instructions__card instruction__card grid__item-7-11">
-              <a href="#" class="instruction__card__number">02.</a>
-              <h3 class="instruction__card__title">Verification</h3>
-              <p class="instruction__card__description">
+            <div class="instruction">
+              <a href="#" class="instruction__number">02.</a>
+              <h3 class="instruction__title">Verification</h3>
+              <p class="instruction__description">
                 Big Invest is required to verify your identity, upload your
                 documents quickly and get approved in minutes.
               </p>
             </div>
 
-            <div class="instructions__card instruction__card grid__item-1-5">
-              <a href="#" class="instruction__card__number">03.</a>
-              <h3 class="instruction__card__title">Deposit funds</h3>
-              <p class="instruction__card__description">
+            <div class="instruction">
+              <a href="#" class="instruction__number">03.</a>
+              <h3 class="instruction__title">Deposit funds</h3>
+              <p class="instruction__description">
                 Big Invest accepts credit cards and bank wires. Just use the
                 secure deposit form and follow the steps.
               </p>
             </div>
 
-            <div class="instructions__card instruction__card grid__item-7-11">
-              <a href="#" class="instruction__card__number">04.</a>
-              <h3 class="instruction__card__title">Start Trading</h3>
-              <p class="instruction__card__description">
+            <div class="instruction">
+              <a href="#" class="instruction__number">04.</a>
+              <h3 class="instruction__title">Start Trading</h3>
+              <p class="instruction__description">
                 Once your deposit has been credited, you can begin trading
                 instantly. In no time you will see profits rolling into your
                 account.
@@ -176,7 +178,7 @@
         </div>
       </section>
 
-      <section class="page__section founders" id="founders">
+      <section hidden class="page__section founders" id="founders">
         <div class="container">
           <h2 class="founders__title" id="founder">People love Big Invest</h2>
           <div class="founders__container grid">
