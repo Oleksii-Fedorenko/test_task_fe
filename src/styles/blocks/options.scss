@@ -1,0 +1,55 @@
+.options {
+  &__select {
+    display: none;
+
+    @media (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 40px;
+
+      border: 1px solid #000000;
+      border-radius: 60px;
+
+      &:hover {
+        border: 2px solid #7181fc;
+      }
+
+      &:active {
+        border: 2px solid #354bf4;
+      }
+    }
+  }
+
+  &__item {
+    width: 20px;
+    height: 16px;
+
+    font-family: "Museo Sans Cyrl";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333333;
+  }
+
+  &__button {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: flex;
+      width: 170px;
+    }
+  }
+
+  &__burger {
+    height: 24px;
+    width: 24px;
+    background-image: url(../images/menu.svg);
+
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+}

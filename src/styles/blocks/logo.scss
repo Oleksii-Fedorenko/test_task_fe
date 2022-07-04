@@ -1,0 +1,13 @@
+.logo {
+  font-family: "Museo Sans Cyrl";
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 16px;
+  color: #333333;
+  transition: 0.3s;
+
+  &:hover {
+    color: #4f62f6;
+  }
+}
