@@ -491,4 +491,87 @@
   }
 }
 
+.founders__title {
+  grid-column: 1 / 4;
+}
+
+@media (min-width: 768px) {
+  .founders__title {
+    grid-column: 1 / 6;
+  }
+}
+
+.founders__container {
+  flex-wrap: nowrap;
+  justify-content: start;
+  display: flex;
+}
+
+.founders__slider {
+  min-height: 150px;
+  height: max-content;
+  width: 100%;
+  grid-column: 1 / 5;
+  position: relative;
+  overflow: hidden;
+}
+
+.founder {
+  width: calc(100vw - 40px);
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.founder__image {
+  margin-top: 32px;
+}
+
+.founder__name {
+  text-align: center;
+  color: #333;
+  margin-top: 8px;
+  font-family: Museo Sans Cyrl;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.founder__position {
+  text-align: center;
+  color: #333333b3;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.founder__comment {
+  display: flex;
+}
+
+.comment {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.comment__quotes {
+  width: 33px;
+  height: 27px;
+  margin-top: 24px;
+}
+
+.comment__text {
+  text-align: center;
+  color: #333;
+  margin-top: 24px;
+  font-family: Museo Sans Cyrl;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
 /*# sourceMappingURL=index.971c2ea4.css.map */
