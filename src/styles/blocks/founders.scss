@@ -1,0 +1,24 @@
+.founders {
+  &__title {
+    grid-column: 1 / 4;
+
+    @media (min-width: 768px) {
+      grid-column: 1 / 6;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+  }
+
+  &__slider {
+    grid-column: 1 / 5;
+    overflow: hidden;
+    position: relative;
+    min-height: 150px;
+    height: max-content;
+    width: 100%;
+  }
+}

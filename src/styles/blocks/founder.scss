@@ -1,0 +1,61 @@
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 40px);
+
+  &__image {
+    margin-top: 32px;
+  }
+
+  &__name {
+    margin-top: 8px;
+    font-family: "Museo Sans Cyrl";
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+
+    text-align: center;
+    color: #333333;
+  }
+
+  &__position {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: rgb(51, 51, 51, 0.7);
+  }
+
+  &__comment {
+    display: flex;
+  }
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__quotes {
+    margin-top: 24px;
+    width: 33px;
+    height: 27px;
+  }
+
+  &__text {
+    margin-top: 24px;
+    font-family: "Museo Sans Cyrl";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+
+    color: #333333;
+  }
+}
