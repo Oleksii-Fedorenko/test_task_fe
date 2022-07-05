@@ -1,5 +1,7 @@
 {
   "name": "parcel-html-sass-js-starter-template",
+  "homepage": ".",
+
   "version": "0.1.0",
   "description": "Starter template for building static web apps with HTML partials, SASS, and JavaScript.",
   "scripts": {
@@ -17,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/aileen-r/parcel-html-sass-js-starter-template/issues"
   },
-  "homepage": "https://github.com/Oleksii-Fedorenko/test_task_fe/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0",
     "parcel": "^2.0.0",
